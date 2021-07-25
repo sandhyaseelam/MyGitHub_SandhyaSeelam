@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-25T17:11:02.082Z",
+        "line": 3,
+        "name": "Register a new user to the website",
+        "description": "",
+        "id": "add-registeration-service-to-e-learning-website;register-a-new-user-to-the-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21667000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Home page is displayed and Sign up link is enable",
+            "match": {
+              "location": "StepDefinition.StepDefinitionClass.verifyIfHomePageIsDisplayedAndSignUpLinkIsEnabled()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8036000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on Sign up",
+            "match": {
+              "location": "StepDefinition.StepDefinitionClass.clickOnSignupLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1302000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter user details in the registration form",
+            "match": {
+              "location": "StepDefinition.StepDefinitionClass.enterUserDetailsInRegistrationForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1761000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on Register button",
+            "match": {
+              "location": "StepDefinition.StepDefinitionClass.clickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 355000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is registered sucessfully",
+            "match": {
+              "location": "StepDefinition.StepDefinitionClass.verifySuccessMessageAndOtherDetailsAfterRegistration()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5008000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User can access Inbox",
+            "match": {
+              "location": "StepDefinition.StepDefinitionClass.accessInboxOnClick()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9622000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Send a new mail",
+            "match": {
+              "location": "StepDefinition.StepDefinitionClass.composeAndSendANewMailFromTheRegisteredAccount()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Add Registeration service to e-Learning website",
+    "description": "",
+    "id": "add-registeration-service-to-e-learning-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/eLearningApplication/registeredNewuser.feature",
+    "tags": []
+  }
+]

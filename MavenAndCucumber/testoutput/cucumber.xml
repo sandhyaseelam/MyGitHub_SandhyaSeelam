@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="48.304">
+<testcase classname="Add Registeration service to e-Learning website" name="Register a new user to the website" time="47.926">
+<system-out><![CDATA[Given Home page is displayed and Sign up link is enable.....................passed
+When Click on Sign up.......................................................passed
+And Enter user details in the registration form.............................passed
+And click on Register button................................................passed
+Then User is registered sucessfully.........................................passed
+And User can access Inbox...................................................passed
+And Send a new mail.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
