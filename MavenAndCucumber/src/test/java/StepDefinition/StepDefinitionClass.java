@@ -148,7 +148,7 @@ public class StepDefinitionClass {
 		
 		System.out.println("The email is sent successfully");
 
-		//driver.close();
+		driver.close();
 	}
 
 }
